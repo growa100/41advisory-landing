@@ -17,13 +17,26 @@
     {
       "source": "/legal",
       "destination": "/legal.html"
-    }
-  ],
-  "redirects": [
+    },
     {
-      "source": "/blog/:slug",
-      "destination": "/blog.html",
-      "permanent": false
+      "source": "/blog/lsfin-conseiller-independant-suisse",
+      "destination": "/blog/lsfin-conseiller-independant-suisse.html"
+    },
+    {
+      "source": "/blog/conseiller-independant-vs-banque-suisse",
+      "destination": "/blog/conseiller-independant-vs-banque-suisse.html"
+    },
+    {
+      "source": "/blog/interactive-brokers-investisseur-suisse",
+      "destination": "/blog/interactive-brokers-investisseur-suisse.html"
+    },
+    {
+      "source": "/blog/construire-portefeuille-etf-suisse-2026",
+      "destination": "/blog/construire-portefeuille-etf-suisse-2026.html"
+    },
+    {
+      "source": "/blog/unabhaengige-anlageberatung-schweiz",
+      "destination": "/blog/unabhaengige-anlageberatung-schweiz.html"
     }
   ]
 }
