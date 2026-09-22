@@ -1,42 +1,4 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false,
-  "rewrites": [
-    {
-      "source": "/about",
-      "destination": "/about.html"
-    },
-    {
-      "source": "/blog",
-      "destination": "/blog.html"
-    },
-    {
-      "source": "/book",
-      "destination": "/book.html"
-    },
-    {
-      "source": "/legal",
-      "destination": "/legal.html"
-    },
-    {
-      "source": "/blog/lsfin-conseiller-independant-suisse",
-      "destination": "/blog/lsfin-conseiller-independant-suisse.html"
-    },
-    {
-      "source": "/blog/conseiller-independant-vs-banque-suisse",
-      "destination": "/blog/conseiller-independant-vs-banque-suisse.html"
-    },
-    {
-      "source": "/blog/interactive-brokers-investisseur-suisse",
-      "destination": "/blog/interactive-brokers-investisseur-suisse.html"
-    },
-    {
-      "source": "/blog/construire-portefeuille-etf-suisse-2026",
-      "destination": "/blog/construire-portefeuille-etf-suisse-2026.html"
-    },
-    {
-      "source": "/blog/unabhaengige-anlageberatung-schweiz",
-      "destination": "/blog/unabhaengige-anlageberatung-schweiz.html"
-    }
-  ]
+  "trailingSlash": false
 }

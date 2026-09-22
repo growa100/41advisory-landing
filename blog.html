@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Analyses — 41 Advisory · Conseil en investissement indépendant Suisse</title>
-  <meta name="description" content="Articles de fond sur le conseil en investissement indépendant, la réglementation LSFIN, les ETF en Suisse, Interactive Brokers et les actifs numériques. Par Antoine Pury.">
+  <meta name="description" content="Articles de fond sur le conseil en investissement indépendant, la réglementation LSFIN, les ETF UCITS en Suisse et Interactive Brokers. Par Antoine Pury.">
   <link rel="canonical" href="https://www.41advisory.ch/blog">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,6 +28,12 @@
     .nav-lsfin{font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:var(--ink-muted);border:1px solid var(--border-strong);padding:4px 10px;border-radius:2px}
     .nav-cta{font-family:var(--sans);font-size:12px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;background:var(--ink);color:#fff;padding:8px 18px;text-decoration:none;transition:background .15s}
     .nav-cta:hover{background:var(--salmon)}
+
+    /* Espace client (portail) */
+    .nav-client { font-family: var(--sans); font-size: 12px; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink); text-decoration: none; border: 1px solid var(--border-strong); padding: 7px 16px; transition: all 0.15s; white-space: nowrap; }
+    .nav-client:hover { border-color: var(--salmon); color: var(--salmon); }
+    .nav-client-mobile { display: none; }
+    @media (max-width: 900px) { .nav-client-mobile { display: inline-block; font-size: 11px; padding: 6px 12px; justify-self: end; } }
     .section-header{display:flex;align-items:center;border-bottom:1px solid var(--border-strong);border-top:1px solid var(--border-strong)}
     .section-kicker{font-family:var(--mono);font-size:11px;font-weight:500;letter-spacing:.15em;text-transform:uppercase;color:#fff;background:var(--ink);padding:10px 20px;white-space:nowrap}
     .section-title-inline{font-family:var(--serif);font-size:18px;font-weight:400;color:var(--ink);padding:10px 24px;flex:1}
@@ -104,14 +110,14 @@
     <span class="ticker-item"><span class="ticker-label">SMI</span> <span class="ticker-val">12 284 <span class="tick-up">+0.42%</span></span></span>
     <span class="ticker-item"><span class="ticker-label">S&amp;P 500</span> <span class="ticker-val">5 304 <span class="tick-up">+0.18%</span></span></span>
     <span class="ticker-item"><span class="ticker-label">USD/CHF</span> <span class="ticker-val">0.8924 <span class="tick-up">+0.08%</span></span></span>
-    <span class="ticker-item"><span class="ticker-label">BTC/USD</span> <span class="ticker-val">108 420 <span class="tick-up">+2.14%</span></span></span>
-    <span class="ticker-item"><span class="ticker-label">Gold</span> <span class="ticker-val">3 324 <span class="tick-down">−0.31%</span></span></span>
+    <span class="ticker-item"><span class="ticker-label">EUR/USD</span> <span class="ticker-val">1.0516 <span class="tick-up">+0.21%</span></span></span>
+    <span class="ticker-item"><span class="ticker-label">Nasdaq</span> <span class="ticker-val">18 950 <span class="tick-down">−0.31%</span></span></span>
     <span class="ticker-item"><span class="ticker-label">10Y UST</span> <span class="ticker-val">4.42% <span class="tick-up">+3bp</span></span></span>
     <span class="ticker-item"><span class="ticker-label">SMI</span> <span class="ticker-val">12 284 <span class="tick-up">+0.42%</span></span></span>
     <span class="ticker-item"><span class="ticker-label">S&amp;P 500</span> <span class="ticker-val">5 304 <span class="tick-up">+0.18%</span></span></span>
     <span class="ticker-item"><span class="ticker-label">USD/CHF</span> <span class="ticker-val">0.8924 <span class="tick-up">+0.08%</span></span></span>
-    <span class="ticker-item"><span class="ticker-label">BTC/USD</span> <span class="ticker-val">108 420 <span class="tick-up">+2.14%</span></span></span>
-    <span class="ticker-item"><span class="ticker-label">Gold</span> <span class="ticker-val">3 324 <span class="tick-down">−0.31%</span></span></span>
+    <span class="ticker-item"><span class="ticker-label">EUR/USD</span> <span class="ticker-val">1.0516 <span class="tick-up">+0.21%</span></span></span>
+    <span class="ticker-item"><span class="ticker-label">Nasdaq</span> <span class="ticker-val">18 950 <span class="tick-down">−0.31%</span></span></span>
     <span class="ticker-item"><span class="ticker-label">10Y UST</span> <span class="ticker-val">4.42% <span class="tick-up">+3bp</span></span></span>
   </div>
 </div>
@@ -127,9 +133,11 @@
   </div>
   <a href="/" class="nav-logo">41 <span>Advisory</span></a>
   <div class="nav-right">
-    <span class="nav-lsfin">LSFIN · BX Swiss</span>
-    <a href="/book.html" class="nav-cta">Prendre rendez-vous</a>
+    <span class="nav-lsfin">LSFIN · INSCRIPTION EN COURS</span>
+    <a href="https://app.41advisory.ch/login" class="nav-client">Espace client</a>
+      <a href="/book.html" class="nav-cta">Prendre rendez-vous</a>
   </div>
+  <a href="https://app.41advisory.ch/login" class="nav-client nav-client-mobile">Espace client</a>
 </nav>
 
 <div class="blog-header">
@@ -261,7 +269,7 @@
 
 <footer>
   <a href="/" class="footer-logo">41 <span>Advisory</span></a>
-  <div class="footer-center">© 2026 · 41 Labs Sàrl · Baarerstrasse 135, 6300 Zug · LSFIN BX Swiss RegServices</div>
+  <div class="footer-center">© 2026 · 41 Labs GmbH · Avenue du Bietschhorn 37, 1950 Sion · Inscription LSFIN en cours</div>
   <ul class="footer-links">
     <li><a href="/blog.html">Analyses</a></li>
     <li><a href="https://www.41capital.ch">41 Capital</a></li>

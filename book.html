@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Prendre rendez-vous — 41 Advisory · Consultation gratuite</title>
-  <meta name="description" content="Réservez une consultation gratuite de 45 minutes avec Antoine Pury, conseiller en investissement indépendant LSFIN à Zug. Sans engagement, sans présentation commerciale.">
+  <meta name="description" content="Réservez une consultation gratuite de 45 minutes avec Antoine Pury, conseiller en investissement indépendant LSFIN à Sion. Sans engagement, sans présentation commerciale.">
   <link rel="canonical" href="https://calendly.com/antoine-pury-41labs/parlons-de-votre-situation-concretement" target="_blank">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -75,6 +75,12 @@
     .disclaimer-book { margin-top: 32px; font-family: var(--mono); font-size: 10px; letter-spacing: .04em; color: rgba(255,255,255,.25); line-height: 1.6; }
 
     @media(max-width:900px){ nav{grid-template-columns:1fr auto;padding:0 20px} .nav-left,.nav-right{display:none} .book-grid{grid-template-columns:1fr} .book-left,.book-right{padding:40px 20px} footer{grid-template-columns:1fr;text-align:center;padding:24px 20px} .footer-links{justify-content:center} }
+  
+    /* Espace client (portail) */
+    .nav-client { font-family: var(--sans); font-size: 12px; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink); text-decoration: none; border: 1px solid var(--border-strong); padding: 7px 16px; transition: all 0.15s; white-space: nowrap; }
+    .nav-client:hover { border-color: var(--salmon); color: var(--salmon); }
+    .nav-client-mobile { display: none; }
+    @media (max-width: 900px) { .nav-client-mobile { display: inline-block; font-size: 11px; padding: 6px 12px; justify-self: end; } }
   </style>
 </head>
 <body>
@@ -84,14 +90,14 @@
     <span class="ticker-item"><span class="ticker-label">SMI</span> <span class="ticker-val">12 284 <span class="tick-up">+0.42%</span></span></span>
     <span class="ticker-item"><span class="ticker-label">S&amp;P 500</span> <span class="ticker-val">5 304 <span class="tick-up">+0.18%</span></span></span>
     <span class="ticker-item"><span class="ticker-label">USD/CHF</span> <span class="ticker-val">0.8924 <span class="tick-up">+0.08%</span></span></span>
-    <span class="ticker-item"><span class="ticker-label">BTC/USD</span> <span class="ticker-val">108 420 <span class="tick-up">+2.14%</span></span></span>
-    <span class="ticker-item"><span class="ticker-label">Gold</span> <span class="ticker-val">3 324 <span class="tick-down">−0.31%</span></span></span>
+    <span class="ticker-item"><span class="ticker-label">EUR/USD</span> <span class="ticker-val">1.0516 <span class="tick-up">+0.21%</span></span></span>
+    <span class="ticker-item"><span class="ticker-label">Nasdaq</span> <span class="ticker-val">18 950 <span class="tick-down">−0.31%</span></span></span>
     <span class="ticker-item"><span class="ticker-label">10Y UST</span> <span class="ticker-val">4.42% <span class="tick-up">+3bp</span></span></span>
     <span class="ticker-item"><span class="ticker-label">SMI</span> <span class="ticker-val">12 284 <span class="tick-up">+0.42%</span></span></span>
     <span class="ticker-item"><span class="ticker-label">S&amp;P 500</span> <span class="ticker-val">5 304 <span class="tick-up">+0.18%</span></span></span>
     <span class="ticker-item"><span class="ticker-label">USD/CHF</span> <span class="ticker-val">0.8924 <span class="tick-up">+0.08%</span></span></span>
-    <span class="ticker-item"><span class="ticker-label">BTC/USD</span> <span class="ticker-val">108 420 <span class="tick-up">+2.14%</span></span></span>
-    <span class="ticker-item"><span class="ticker-label">Gold</span> <span class="ticker-val">3 324 <span class="tick-down">−0.31%</span></span></span>
+    <span class="ticker-item"><span class="ticker-label">EUR/USD</span> <span class="ticker-val">1.0516 <span class="tick-up">+0.21%</span></span></span>
+    <span class="ticker-item"><span class="ticker-label">Nasdaq</span> <span class="ticker-val">18 950 <span class="tick-down">−0.31%</span></span></span>
     <span class="ticker-item"><span class="ticker-label">10Y UST</span> <span class="ticker-val">4.42% <span class="tick-up">+3bp</span></span></span>
   </div>
 </div>
@@ -106,9 +112,11 @@
   </div>
   <a href="/" class="nav-logo">41 <span>Advisory</span></a>
   <div class="nav-right">
-    <span class="nav-lsfin">LSFIN · BX Swiss</span>
-    <a href="/book.html" class="nav-cta">Rendez-vous</a>
+    <span class="nav-lsfin">LSFIN · INSCRIPTION EN COURS</span>
+    <a href="https://app.41advisory.ch/login" class="nav-client">Espace client</a>
+      <a href="/book.html" class="nav-cta">Rendez-vous</a>
   </div>
+  <a href="https://app.41advisory.ch/login" class="nav-client nav-client-mobile">Espace client</a>
 </nav>
 
 <section class="book-grid">
@@ -140,12 +148,12 @@
       <div class="profile-mini-avatar"><span>AP</span></div>
       <div>
         <div class="profile-mini-name">Antoine Pury</div>
-        <div class="profile-mini-title">Conseiller indépendant · LSFIN · Zug</div>
+        <div class="profile-mini-title">Conseiller indépendant · LSFIN · Sion</div>
         <div class="profile-mini-tags">
           <span class="mini-tag">MSc Commodity Trading · Univ. Genève</span>
           <span class="mini-tag">SwissBorg 2024–25</span>
           <span class="mini-tag">ING Bank 2022–23</span>
-          <span class="mini-tag">BX Swiss RegServices</span>
+          <span class="mini-tag">LSFIN (inscription en cours)</span>
         </div>
       </div>
     </div>
@@ -153,10 +161,10 @@
 
   <div class="book-right">
     <h2>Réserver un créneau</h2>
-    <div class="book-sub">45 min · Visio ou en personne à Zug · Gratuit</div>
+    <div class="book-sub">45 min · Visio ou en personne à Sion · Gratuit</div>
 
     <div class="cal-embed">
-      <p>Réservez directement un créneau de 45 minutes — visio ou en personne à Zug.</p>
+      <p>Réservez directement un créneau de 45 minutes — visio ou en personne à Sion.</p>
       <a href="https://calendly.com/antoine-pury-41labs/parlons-de-votre-situation-concretement" target="_blank" class="cal-btn">Ouvrir Calendly →</a>
       <div class="or-line"><span class="or-text">ou</span></div>
       <div class="direct-contact">
@@ -164,13 +172,13 @@
       </div>
     </div>
 
-    <p class="disclaimer-book">Cet entretien ne constitue pas un conseil en investissement personnalisé au sens de la LSFIN. 41 Labs Sàrl, enregistrée LSFIN auprès de BX Swiss RegServices SA. Baarerstrasse 135, 6300 Zug, Suisse.</p>
+    <p class="disclaimer-book">Cet entretien ne constitue pas un conseil en investissement personnalisé au sens de la LSFIN. 41 Labs GmbH, inscription au registre LSFIN (BX Swiss RegServices SA) en cours. Avenue du Bietschhorn 37, 1950 Sion, Suisse.</p>
   </div>
 </section>
 
 <footer>
   <a href="/" class="footer-logo">41 <span>Advisory</span></a>
-  <div class="footer-center">© 2026 · 41 Labs Sàrl · Baarerstrasse 135, 6300 Zug · LSFIN BX Swiss RegServices</div>
+  <div class="footer-center">© 2026 · 41 Labs GmbH · Avenue du Bietschhorn 37, 1950 Sion · Inscription LSFIN en cours</div>
   <ul class="footer-links">
     <li><a href="/blog.html">Analyses</a></li>
     <li><a href="https://www.41capital.ch">41 Capital</a></li>

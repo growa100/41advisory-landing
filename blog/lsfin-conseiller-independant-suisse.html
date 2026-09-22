@@ -28,6 +28,12 @@
     .nav-cta{font-family:var(--sans);font-size:12px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;background:var(--ink);color:#fff;padding:8px 18px;text-decoration:none;transition:background .15s}
     .nav-cta:hover{background:var(--salmon)}
 
+    /* Espace client (portail) */
+    .nav-client { font-family: var(--sans); font-size: 12px; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink); text-decoration: none; border: 1px solid var(--border-strong); padding: 7px 16px; transition: all 0.15s; white-space: nowrap; }
+    .nav-client:hover { border-color: var(--salmon); color: var(--salmon); }
+    .nav-client-mobile { display: none; }
+    @media (max-width: 900px) { .nav-client-mobile { display: inline-block; font-size: 11px; padding: 6px 12px; justify-self: end; } }
+
     .article-wrap{display:grid;grid-template-columns:1fr 280px;gap:0;max-width:1100px;margin:0 auto;padding:60px 40px 100px}
     .article-main{}
     .back-link{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-muted);text-decoration:none;margin-bottom:40px;transition:color .15s}
@@ -79,9 +85,11 @@
   </ul></div>
   <a href="/" class="nav-logo">41 <span>Advisory</span></a>
   <div class="nav-right">
-    <span class="nav-lsfin">LSFIN · BX Swiss</span>
-    <a href="https://calendly.com/antoine-pury-41labs/parlons-de-votre-situation-concretement" target="_blank" class="nav-cta">Rendez-vous</a>
+    <span class="nav-lsfin">LSFIN · INSCRIPTION EN COURS</span>
+    <a href="https://app.41advisory.ch/login" class="nav-client">Espace client</a>
+      <a href="https://calendly.com/antoine-pury-41labs/parlons-de-votre-situation-concretement" target="_blank" class="nav-cta">Rendez-vous</a>
   </div>
+  <a href="https://app.41advisory.ch/login" class="nav-client nav-client-mobile">Espace client</a>
 </nav>
 
 <div class="article-wrap">
@@ -116,7 +124,7 @@
       </ul>
 
       <h2>Conseiller indépendant vs banque : une différence fondamentale</h2>
-      <p>C'est ici que la LSFIN devient particulièrement intéressante pour l'investisseur privé. Un conseiller en investissement indépendant enregistré LSFIN <strong>ne reçoit aucune rétrocession</strong> de la part des produits qu'il recommande. Son seul revenu est l'honoraire que vous lui versez directement.</p>
+      <p>C'est ici que la LSFIN devient particulièrement intéressante pour l'investisseur privé. Un conseiller en investissement indépendant, inscription LSFIN en cours <strong>ne reçoit aucune rétrocession</strong> de la part des produits qu'il recommande. Son seul revenu est l'honoraire que vous lui versez directement.</p>
       <p>Cela élimine structurellement le conflit d'intérêt qui existe lorsque votre "conseiller" en banque est en réalité incentivé à vous vendre les produits maison. Une banque privée recommande rarement un ETF à 0.07% de frais alors qu'elle peut vous placer un fonds maison à 1.5% — la différence de rendement sur 20 ans est colossale.</p>
 
       <div class="callout">
@@ -146,7 +154,7 @@
       <p>C'est un signe positif pour la qualité globale du conseil financier en Suisse — et une opportunité pour ceux qui choisissent de travailler avec un professionnel vraiment indépendant.</p>
 
       <div class="callout">
-        <p>Chez 41 Advisory, l'enregistrement LSFIN auprès de BX Swiss RegServices est la base de tout. Chaque recommandation est documentée. Aucune rétrocession n'est perçue. L'honoraire mensuel est le seul revenu — aligné sur votre intérêt, pas sur celui d'une gamme de produits.</p>
+        <p>Chez 41 Advisory, l'inscription au registre LSFIN de BX Swiss RegServices (en cours) est la base de tout. Chaque recommandation est documentée. Aucune rétrocession n'est perçue. L'honoraire mensuel est le seul revenu — aligné sur votre intérêt, pas sur celui d'une gamme de produits.</p>
       </div>
     </div>
   </div>
@@ -155,7 +163,7 @@
     <div class="aside-sticky">
       <div class="aside-block">
         <div class="aside-label">Auteur</div>
-        <div class="aside-value">Antoine Pury<br><span style="color:var(--ink-muted);font-size:13px">Conseiller LSFIN · BX Swiss RegServices</span></div>
+        <div class="aside-value">Antoine Pury<br><span style="color:var(--ink-muted);font-size:13px">Conseiller en placement · Inscription LSFIN en cours</span></div>
       </div>
       <div class="aside-block">
         <div class="aside-label">Publié</div>
@@ -183,7 +191,7 @@
 
 <footer>
   <a href="/" class="footer-logo">41 <span>Advisory</span></a>
-  <div class="footer-center">© 2026 · 41 Labs Sàrl · Zug · LSFIN BX Swiss RegServices</div>
+  <div class="footer-center">© 2026 · 41 Labs GmbH · Sion · Inscription LSFIN en cours</div>
   <ul class="footer-links">
     <li><a href="/blog.html">Analyses</a></li>
     <li><a href="/about.html">À propos</a></li>
